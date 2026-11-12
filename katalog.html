@@ -8,7 +8,8 @@
         body { background-color: #f4f4f4; font-family: sans-serif; }
         .wadah-kartu {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
             padding: 20px;
             max-width: 900px;
             margin: 0 auto;
@@ -17,7 +18,9 @@
             background-color: white;
             padding: 20px;
             border-radius: 8px;
-            width: 250px;
+            width: 100%;
+            max-width: 250px;
+            margin-bottom: 20px;
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
