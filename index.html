@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTS Praktik - Website Meylani</title>
+</head>
+<body>
+    <!-- =================================================================
+         BAGIAN 1: NAVBAR (Menu Navigasi Atas)
+         ================================================================= -->
+    <div class="navbar">
+        <div class="logo">
+            <h2>Menu Website</h2>
+        </div>
+        <ul class="menu-navigasi">
+            <li><a href="#beranda">Tentang Saya</a></li>
+            <li><a href="#fitur">Keahlian Saya</a></li>
+            <li><a href="#interaksi">Kontak</a></li>
+        </ul>
+    </div>
+    <!-- ================================================================= 
+         BAGIAN 2: HERO SECTION (Banner Pembuka Utama) 
+         ================================================================= --> 
+    <div class="hero" id="beranda"> 
+        <div class="hero-teks"> 
+            <h1>Tentang Saya</h1> 
+            <p> 
+                Haloo teman-teman semua saya perkenalkan saya Meylani Puanita.
+                Saya merupakan seorang pelajar SMK Muhammadiyah 3 Tangsel yang sedang menempuh pendidikan di jurusan RPL.
+                Apa itu RPL?? RPL adalah rekayasa perangkat lunak, sebuah jurusan yang mempelajari tentang pemrograman dan pengembangan aplikasi.
+                Saya merupakan seorang pelajar kelas 11 jurusan RPL, awalnya RPL bukanlah jurusan yang saya inginkan, namun setelah saya mempelajari jurusan ini saya mulaimenyukai jurusan ini.
+                Semenjak saya masuk jurusan RPL saya belajar banyak hal baru dan sekarang sudah menguasai beberapa bahasa pemrograman seperti HTML, CSS, DAN C++.
+                Saya harap kedepannya saya bisa menjadi seorang programmer yang handal dan bisa membuat aplikasi yang bermanfaat bagi orang banyak. 
+            </p> 
+            <a href="#interaksi" class="tombol-utama">Silahkan Tekan Untuk Hubungi Saya</a> 
+        </div> 
+        <div class="hero-gambar"> 
+            <img src="lani1.jpg.jpeg" alt="profil saya" width="200" height="300"> 
+        </div> 
+    </div> 
+    <!-- =================================================================
+         BAGIAN 3: CONTENT SECTION (Wadah Flexbox 3 Kolom Sejajar)
+         ================================================================= -->
+    <div class="bagian-konten" id="fitur">
+        <h2 class="judul-bagian">Keahlian Saya</h2>
+        <div class="wadah-tiga-kolom">
+            <div class="kartu">
+                <img src="ikon HTML.jpeg" alt="ikon html" width="200" height="200">
+                <h3>HTML</h3>
+                <p>Saya sudah menguasai elemen-elemen dasar HTML.</p>
+            </div>
+            <div class="kartu">
+                <img src="ikon CSS.jpeg" alt="ikon css" width="200" height="200">
+                <h3>CSS</h3>
+                <p>Saya sudah menguasai beberapa elemen yang ada di CSS.</p>
+            </div>
+            <div class="kartu">
+                <img src="ikon C++.jpeg" alt="ikon c++" width="200" height="200">
+                <h3>C++</h3>
+                <p>Saya sudah menguasai dasar-dasar pemrograman C++.</p>
+            </div>
+        </div>
+    </div>
+   <!-- =================================================================
+         BAGIAN 4: BAGIAN INTERAKSI (FORMULIR ATAU TABEL)
+         ================================================================= -->
+    <div class="bagian-interaksi" id="interaksi">
+        <h2 class="judul-bagian">Hubungi Saya</h2>
+        <form action="#" method="POST" class="form-pts">
+            <div class="grup-input">
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+            </div>
+            <br>
+            <div class="grup-input">
+                <label for="email">Alamat Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            </div>
+            <br>
+            <div class="grup-input">
+                <label for="pesan">Pesan/Catatan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+            <br>
+            <button type="submit" class="tombol-kirim">Kirim Sekarang</button>
+        </form>
+    </div>
+        <!-- =================================================================
+         BAGIAN 5: FOOTER (Kaki Halaman)
+         ================================================================= -->
+    <div class="footer">
+        <p>&copy; 2026 Proyek PTS Pemrograman Web - Dibuat oleh Meylani Puanita kelas XI RPL SMK Muhammadiyah 3 Tangerang Selatan.</p>
+    </div>
+</body>
+</html>
